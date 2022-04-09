@@ -1,0 +1,35 @@
+Desarrollado en javascript
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fibonacci</title>
+</head>
+<body>
+    <script>
+        
+       var primer_numero = parseInt(prompt("ingresar el primer numero"));
+       var segundo_numero = parseInt(prompt("ingresar el segundo numero"));
+       var array =[primer_numero, segundo_numero];
+
+       for(var i=0; i<= 100; i++)
+       {
+           var nuevo_numero = primer_numero + segundo_numero;
+           array.push(nuevo_numero);
+           primer_numero = segundo_numero;
+           segundo_numero = nuevo_numero;
+       }
+       console.log(array);
+
+       for( x of array)
+       {
+           document.write( x + "<br>");
+       }
+        
+    </script>
+    
+</body>
+</html>

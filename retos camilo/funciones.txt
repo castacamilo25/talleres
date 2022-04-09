@@ -1,0 +1,33 @@
+desarollado en python
+
+#siguiente suma
+def suma (a,b,c):
+    z=a+b+c
+    print (z)
+a=int(input("ingresa el primer numero  "))
+b=int(input("ingrese el segundo numero  "))
+c=int(input("ingrese el y tercer numero  "))
+suma(a,b,c)
+#siguiente es resta
+def resta (a,b,c):
+    z=a-b-c
+    print (z)
+a=int(input("ingresa el primer numero  "))
+b=int(input("ingrese el segundo numero  "))
+c=int(input("ingrese el y tercer numero  "))
+resta (a,b,c)
+#siguiente multiplicar
+def multiplicar (a,b,c):
+    z=a*b*c
+    print (z)
+a=int(input("ingresa el primer numero  "))
+b=int(input("ingrese el segundo numero  "))
+c=int(input("ingrese el y tercer numero  "))
+multiplicar (a,b,c)
+#siguiente dividir
+def dividir (a,b):
+    z=a/b
+    print (z)
+a=int(input("ingresa el primer numero  "))
+b=int(input("ingrese el segundo numero  "))
+dividir (a,b)

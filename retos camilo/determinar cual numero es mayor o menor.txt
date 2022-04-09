@@ -1,0 +1,39 @@
+desarrollado en javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf -8"> 
+    <meta name="viewport" content="widt=device-widh, initial-sacle=1.0">
+    <title>determina cual es el numero mayor de tres numeros </title>
+</head>
+<body>
+    <script>
+        let num1, num2, num3, mayor;
+        num1= parseInt(prompt("ingresar el primer numero:"));
+        num2= parseInt(prompt("ingresar el segundo numero:"));
+        num3= parseInt(prompt("ingresar el tercer numero:"));
+        if(num1 >= num2 && num1 >= num3){
+            mayor =num1;
+            
+    }else if (num2 >= num1 && num2 >= num3){
+        mayor = num2;
+    }else {
+        mmayor = num3;
+    }
+    document.write("el numero mayor es: "+ mayor);
+    if(num1 <= num2 && num1 <= num3){
+                menor =num1;
+                
+        }else if (num2 <= num1 && num2 <= num3){
+            menor = num2;
+        }else {
+            menor = num3;
+        }
+        document.write(" <br> el numero menor es: " + menor);
+    
+   
+           
+        </script>
+   
+
+</html>
